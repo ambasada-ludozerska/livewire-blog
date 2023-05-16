@@ -23,4 +23,8 @@ class PostAdd extends Component
 
         redirect("/");
     }
+
+    public function back() {
+        redirect("/");
+    }
 }

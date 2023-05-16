@@ -7,11 +7,9 @@ use App\Models\Post;
 
 class PostDelete extends Component
 {
-    public $postID;
     public $post;
 
     public function mount($id) {
-        $this->postID = $id;
         $this->post = Post::find($id);
     }
 

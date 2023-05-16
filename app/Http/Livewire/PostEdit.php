@@ -29,4 +29,8 @@ class PostEdit extends Component
 
         redirect("/");
     }
+
+    public function back() {
+        redirect("/");
+    }
 }
